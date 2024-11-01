@@ -110,3 +110,18 @@ footer {
   color: #ffffff;
   text-decoration: none;
 }
+.grid-container {
+    display: grid; /* Используем Grid */
+    grid-template-columns: repeat(2, 1fr); /* Две колонки одинаковой ширины */
+    gap: 10px; /* Промежуток между кнопками */
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #cb782f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 200px;
+}
