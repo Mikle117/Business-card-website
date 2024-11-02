@@ -125,3 +125,14 @@ footer {
     border-radius: 20px;
     width: 200px;
 }
+
+#pdfViewer {
+            width: 100%;
+            height: 100vh;
+            overflow: auto;
+            display: none; /* Скрываем контейнер до нажатия кнопки */
+        }
+        canvas {
+            display: block;
+            margin: auto;
+        }
