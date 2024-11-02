@@ -14,8 +14,8 @@ body {
 }
 
 .header__avatar {
-  border-radius: 30%;
-  height: 400px;
+  border-radius: 40%;
+  height: 320px;
 }
 
 .header__title {
