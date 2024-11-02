@@ -6,6 +6,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: radial-gradient(circle, #FFDEAD, #FFFFFF);
 }
 
 .header {
@@ -22,6 +23,7 @@ body {
   font-size: 32px;
   line-height: 1.2;
   font-family: "Helvetica Neue";
+  
 }
 
 .header__subtitle {
@@ -82,7 +84,7 @@ body {
 .linsk__link,
 .links__link:visited {
   text-decoration: none;
-  color: #cb782f;
+  color: #d45617;
 }
 
 .links__title {
@@ -118,11 +120,18 @@ footer {
 
 .btn {
     padding: 10px 20px;
-    background-color: #cb782f;
+    background-color: #FF0000;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 20px;
     width: 200px;
+    background: linear-gradient(to left, rgba(171, 0, 0, 1), rgba(219, 140, 22, 1), rgba(171, 0, 0, 1));
+    transition: background-position 1s ease;
+    background-size: 200% 100%;
+    background-position: left center;
 }
 
+.btn:hover {
+    background-position: right center; /* Изменяем размер фона при наведении */
+}
