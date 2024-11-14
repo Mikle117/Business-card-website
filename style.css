@@ -34,7 +34,7 @@ body {
 }
 
 .links {
-  : 320px;
+  width: 320px;
   margin-bottom: 40px;
 }
 
@@ -169,8 +169,6 @@ footer {
     top: 25%;
     width: 80%;
     max-width: 600px; /* Максимальная ширина окна */
-}
-=======
 }
 
 .btn:hover {
